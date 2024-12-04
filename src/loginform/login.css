@@ -1,0 +1,95 @@
+/* Home Page and Hero Section Styling */
+.home-page .hero-background {
+  height: 100vh;
+  background: url('../bp.png') center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Form Container Styling */
+.form-container {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form Heading */
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f8f8f8;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form Field Label */
+.form-container .form-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Form Field Input */
+.form-container .form-field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.form-container .form-field input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+}
+
+/* Submit Button Styling */
+.form-container .submit-button {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-container .submit-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.form-container .submit-button:active {
+  transform: scale(1);
+}
+
+/* Add a subtle shadow to the form */
+.form-container {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+      padding: 20px;
+      width: 90%;
+  }
+}

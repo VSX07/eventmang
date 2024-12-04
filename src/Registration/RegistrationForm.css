@@ -1,0 +1,110 @@
+/* Form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px; /* Increased width for better spacing */
+  margin: 0 auto;
+  padding: 25px 20px;
+  border: 1px solid #ffc0cb; /* Soft pink border */
+  border-radius: 16px; /* More rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  background: linear-gradient(145deg, #ffe4e1, #ffdde1); /* Gradient pink */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.form-container:hover {
+  transform: scale(1.05); /* Slightly enlarges the container */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adds more depth on hover */
+}
+
+/* Form heading */
+.form-container h2 {
+  margin-bottom: 24px;
+  color: #6a5acd; /* Lavender color */
+  font-family: 'Arial', sans-serif;
+  font-size: 28px; /* Slightly larger font */
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(106, 90, 205, 0.3); /* Subtle glow */
+}
+
+/* Form field container */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+/* Labels for form fields */
+.form-field label {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #6a5acd; /* Matches the heading color */
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Input fields */
+.form-field input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #ff69b4; /* Hot pink border on focus */
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.5); /* Glow effect */
+}
+
+/* Submit button */
+.submit-button {
+  padding: 14px 24px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff69b4; /* Hot pink button */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(255, 20, 147, 0.3); /* Glow effect */
+}
+
+/* Error message styling */
+.error {
+  margin-top: 12px;
+  color: #d32f2f; /* Red for error text */
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fdecea; /* Light red background for visibility */
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Home page hero background */
+.home-page .hero-background {
+  height: 100vh;
+  background: linear-gradient(160deg, rgba(255, 183, 197, 0.9), rgba(255, 228, 225, 0.9)), 
+              url('../bp.png') center/cover no-repeat; /* Gradient overlay */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

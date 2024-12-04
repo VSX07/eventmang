@@ -1,0 +1,20 @@
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    margin-top: 80px; /* Adjust this based on the navbar height (20px padding + logo size) */
+   /*background-color: ;*/
+  }
+  .home-page .hero-background {
+    height: 100vh;
+   background: url('../bp.png') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  

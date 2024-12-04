@@ -1,0 +1,93 @@
+/* Event Form Page Styles */
+.home-page .hero-background {
+    /* height: 100vh; */
+   background: url('../bp.png') center/cover no-repeat;
+    /* color: #fff;
+    display: flex; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+  }
+
+
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 140px; /* Adjust this value to create space from the navbar */
+}
+
+
+
+.form-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-container input[type="file"] {
+    padding: 5px;
+}
+
+.form-container input:focus {
+    border-color: #007bff;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.form-container .form-group input,
+.form-container .form-group label {
+    width: 100%;
+}
+
+.form-container .form-group input[type="text"],
+.form-container .form-group input[type="time"],
+.form-container .form-group input[type="file"] {
+    width: 100%;
+}
